@@ -63,6 +63,8 @@ The public skills are adapted from a personal tutoring collection maintained by 
 
 The repository includes structural checks for the six skill folders, frontmatter, local links, bundled licenses, and accidental personal-context references. A set of [behavioral review cases](docs/behavioral-checks.md) describes what to check in an actual assistant session.
 
+The [October 20 behavioral pilot](docs/results/2026-10-20.md) records 16 actual responses to synthetic learner prompts. Each met its narrow reviewed condition in that run. The record includes the requests, replies, and limitations; the exact model identifier was not captured. It also includes a small [runnable parser example](examples/parse_integers.py) supplied by the programming tutor.
+
 Structural validation does not show that a tutor improves learning. These prompts have not been established as an effective educational intervention, and different models may follow them differently. Claims about progress should come from the learner's actual work, including later independent performance when relevant. A source review and the limits of the design are recorded in [design notes](docs/design-notes.md).
 
 ## Contribute or report a problem
@@ -73,6 +75,7 @@ For changes, read [CONTRIBUTING.md](CONTRIBUTING.md). To run the local checks wi
 
 ```sh
 python scripts/validate.py
+python scripts/check_examples.py
 ```
 
-Maintained by Matt-xyl. Released under the [MIT license](LICENSE).
+See the [changelog](CHANGELOG.md) for versioned changes. Maintained by Matt-xyl. Released under the [MIT license](LICENSE).

@@ -80,7 +80,7 @@ def main():
     text_files = [p for p in ROOT.rglob("*") if p.is_file() and ".git" not in p.relative_to(ROOT).parts]
     for path in text_files:
         rel = path.relative_to(ROOT)
-        if path.suffix not in {".md", ".yml", ".yaml"} and path.name != "LICENSE":
+        if path.suffix not in {".md", ".yml", ".yaml", ".json"} and path.name != "LICENSE":
             continue
         text = path.read_text(encoding="utf-8")
         if "\ufffd" in text or "\x00" in text:
