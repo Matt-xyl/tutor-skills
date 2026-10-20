@@ -31,3 +31,7 @@ The Python validator checks the expected skill set, frontmatter, bundled license
 The behavioral cases cover boundaries likely to fail, including premature solutions, missing prerequisites, valid proofs, narrow review requests, and explicit overrides. The [October 20 pilot](results/2026-10-20.md) records actual assistant responses across all six skills, with its model-provenance and review limitations. No independent multi-model evaluation or learner outcome study was run.
 
 Research on individual teaching practices would not by itself validate their combination in these prompts. Review intervals, task counts, hint levels, and progress criteria should be treated as practical choices and adjusted to the learner, source, and course requirements. Claims of effectiveness require evidence beyond a well-written repository.
+
+## AI assistance
+
+AI assisted with adapting the tutoring instructions for public reuse, preparing repository documentation and validation tools, and producing the assistant responses recorded in the behavioral pilot. The source tutoring collection is maintained by Matt-xyl.
